@@ -1,0 +1,28 @@
+# Environment / secrets
+.env
+
+# Virtual environment
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Cypher runtime data
+aegis_memory.db
+cypher_memory.db
+startup_log.txt
+temp_recording.wav
+
+# Trained wake-word models (large binary files, train your own)
+*.onnx
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
